@@ -1,14 +1,3 @@
-/*
-    основний колір тексту #757575
-    базовий колір #2196F3
-    background: #E5E5E5;    чем ми занимаемся
-    background: #F5F4FA;    наша команда, кнопки (портфоліо)
-    letter-spacing: 0.02em;
-    letter-spacing: 0.06em; hero
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    for button - font-family: inherit
- */
 
 :root {
     --accent-color: #2196F3;
@@ -31,6 +20,10 @@ body {
 
 li {
     list-style: none;
+}
+
+button {
+    font-family: inherit;
 }
 
 .logo {
@@ -86,8 +79,7 @@ li {
 
 button.button-studio {
     background-color: var(--accent-color);
-    color: var(--accent-white-color);
-    font-family: inherit;
+    color: var(--accent-white-color);    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -163,10 +155,6 @@ button.button-filter:active {
     background-color: var(--team-background-color);
 }
 
-footer {
-    background-color: var(--footer-background-color);
-}
-
 .samples a {
     text-decoration: none;
 }
@@ -185,6 +173,10 @@ footer {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+
+footer {
+    background-color: var(--footer-background-color);
 }
 
 .footer-address {
