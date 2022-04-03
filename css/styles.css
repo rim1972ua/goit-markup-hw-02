@@ -24,6 +24,7 @@ li {
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 .logo {
@@ -124,7 +125,7 @@ button.button-filter:active {
 }
 
 .feature-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
     color: var(--main-text-color);
@@ -139,7 +140,7 @@ button.button-filter:active {
 }
 
 .team-member-role {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
     /* text-align: center; */
@@ -168,7 +169,7 @@ button.button-filter:active {
 }
 
 .samples p {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
