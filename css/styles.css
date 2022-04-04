@@ -8,6 +8,7 @@
     --footer-background-color: #2F303A;
     --feature-background-color: #E5E5E5;
     --team-background-color: #F5F4FA;
+    --buttom-bg-hover-color: #188CE8;
 }
 
 body {
@@ -58,6 +59,10 @@ button {
     text-decoration: none;
 }
 
+.main-address a {
+    color: var(--main-text-color);
+}
+
 .main-nav a:hover,
 .main-nav a:focus,
 .main-nav a:active,
@@ -69,10 +74,13 @@ button {
 
 .hero {
     background-color: var(--footer-background-color);
+    text-align: center;
+}
+
+.hero h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;    
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--accent-white-color);
@@ -88,8 +96,7 @@ button.button-studio {
 
 button.button-studio:hover,
 button.button-studio:focus {
-    background-color: var(--accent-white-color);
-    color: var(--accent-color);
+    background-color: var(--buttom-bg-hover-color);
 }
 
 button.button-filter {
@@ -99,6 +106,7 @@ button.button-filter {
     font-size: 16px;
     line-height: 1.63;  
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 button.button-filter:hover,
@@ -125,7 +133,6 @@ button.button-filter:active {
 }
 
 .feature-text {
-    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
     color: var(--main-text-color);
@@ -135,15 +142,12 @@ button.button-filter:active {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
     color: var(--main-headers-color);
 }
 
 .team-member-role {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
     color: var(--main-text-color);
 }
 
@@ -169,7 +173,6 @@ button.button-filter:active {
 }
 
 .samples p {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
